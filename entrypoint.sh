@@ -6,14 +6,14 @@ set -e
     pwd
     echo
     echo "LS:"
-    ls
+    ls -lah
     echo
     echo "env:"
     env
 
     cd $RUNNER_WORKSPACE
     echo "LS:"
-    ls
+    ls -lah
 
 case "$1" in
 "" | "help")
