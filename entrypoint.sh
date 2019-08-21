@@ -3,7 +3,13 @@
 set -e
 
 if [ "$DEBUG" = "1" ]; then
+    echo "PWD:"
     pwd
+    echo
+    echo "LS:"
+    ls
+    echo
+    echo "env:"
     env
 fi
 
