@@ -11,6 +11,10 @@ set -e
     echo "env:"
     env
 
+    cd $RUNNER_WORKSPACE
+    echo "LS:"
+    ls
+
 case "$1" in
 "" | "help")
     yarn help
