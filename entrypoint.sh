@@ -11,9 +11,9 @@ set -e
     echo "env:"
     env
 
-    cd $RUNNER_WORKSPACE
-    echo "LS:"
-    ls -lah
+
+    ls -lah ..
+    ls -lah ../home
 
 case "$1" in
 "" | "help")
