@@ -2,7 +2,6 @@
 
 set -e
 
-if [ "$DEBUG" = "1" ]; then
     echo "PWD:"
     pwd
     echo
@@ -11,7 +10,6 @@ if [ "$DEBUG" = "1" ]; then
     echo
     echo "env:"
     env
-fi
 
 case "$1" in
 "" | "help")
