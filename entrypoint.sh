@@ -14,6 +14,8 @@ set -e
 
     ls -lah ..
     ls -lah ../home
+    ls -lah ../workflow
+    ls -lah ../workspace
 
 case "$1" in
 "" | "help")
