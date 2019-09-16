@@ -2,20 +2,20 @@
 
 set -e
 
-    echo "PWD:"
-    pwd
-    echo
-    echo "LS:"
-    ls -lah
-    echo
-    echo "env:"
-    env
+echo "PWD:"
+pwd
+echo
+echo "LS:"
+ls -lah
+echo
+echo "env:"
+env
 
 
-    ls -lah ..
-    ls -lah ../home
-    ls -lah ../workflow
-    ls -lah ../workspace
+ls -lah ..
+ls -lah ../home
+ls -lah ../workflow
+ls -lah ../workspace
 
 case "$1" in
 "" | "help")
