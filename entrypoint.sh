@@ -2,21 +2,6 @@
 
 set -e
 
-echo "PWD:"
-pwd
-echo
-echo "LS:"
-ls -lah
-echo
-echo "env:"
-env
-
-
-ls -lah ..
-ls -lah ../home
-ls -lah ../workflow
-ls -lah ../workspace
-
 case "$1" in
 "" | "help")
     yarn help
