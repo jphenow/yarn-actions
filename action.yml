@@ -1,0 +1,5 @@
+name: "Yarn Actions"
+description: "Run Yarn command in a specific sub directory"
+runs:
+  using: "docker"
+  main: "Dockerfile"
